@@ -2,6 +2,7 @@ package org.example;
 
 public class Game {
 
+
     // Field to hold the current reference to the current difficulty level.
     private DifficultyLevelStrategy difficultyLevelStrategy;
 
