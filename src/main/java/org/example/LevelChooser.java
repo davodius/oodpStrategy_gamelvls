@@ -7,7 +7,7 @@ public class LevelChooser implements DifficultyLevelStrategy  {
         // Modify game rules for game
 
 
-        class EasyLevel implements DifficultyLevelStrategy {
+         class EasyLevel implements DifficultyLevelStrategy {
 
             public void modifyGameRules() {
                 // Modify game rules for easy level
@@ -16,8 +16,6 @@ public class LevelChooser implements DifficultyLevelStrategy  {
             }
         }
 
-
-
         class MediumLevel implements DifficultyLevelStrategy {
 
             public void modifyGameRules() {
@@ -25,9 +23,6 @@ public class LevelChooser implements DifficultyLevelStrategy  {
                 System.out.println("Game rules for medium level: Standard time limit and scoring. ");
             }
         }
-
-
-
 
         class HardLevel implements DifficultyLevelStrategy {
 
@@ -39,11 +34,5 @@ public class LevelChooser implements DifficultyLevelStrategy  {
 
 
 
-
-
     }
-
-
-
-
 }
